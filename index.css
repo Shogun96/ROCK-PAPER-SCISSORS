@@ -1,0 +1,75 @@
+.game {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .rps {
+      font-size: 50px;
+      margin-bottom: 10px;
+  }
+  
+  .board {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+  }
+  
+  .player {
+      font-size: 25px;
+      float: left;
+      width: 350px;
+      padding-top: 0px;
+      border-top: 2px solid blue;
+      border-bottom: 2px solid blue;
+      border-left: 2px solid blue;
+      border-radius: 10%;
+      color: green;
+  }
+  
+  .computer {
+      font-size: 25px;
+      float: right;
+      width: 350px;
+      padding-top: 0px;
+      border-top: 2px solid blue;
+      border-bottom: 2px solid blue;
+      border-right: 2px solid blue;
+      border-radius: 10%;
+      color: red;
+  }
+  
+  .resultBoard {
+      border: 2px solid blue;
+      padding-left:100px;
+      padding-right: 100px;
+      text-align: center;
+      align-items: center;
+      font-size: 25px;
+      border-radius: 10%;
+      color:blue;
+  }
+
+  #rock {
+      color: aqua;
+      background-color: black;
+      padding:2%;
+      border-radius: 10%;
+  }
+  
+  #paper {
+      color: aqua;
+      background-color:black;
+      padding:2%;
+      border-radius: 10%;
+  }
+
+  #scissors {
+    color: aqua;
+    background-color:black;
+    padding:2%;
+    border-radius: 10%;
+  }
